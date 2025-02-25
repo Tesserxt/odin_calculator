@@ -70,7 +70,7 @@ function updateButton(e) {
     inNum = result;
 
   }
-  paragraph.textContent = inNum;
+  screen.textContent = inNum;
 
 }
 
@@ -78,7 +78,7 @@ function updateButton(e) {
 
 
 const buttons = document.querySelectorAll('button')
-const paragraph = document.querySelector("p");
+const screen= document.querySelector(".screen");
 
 buttons.forEach((btn) => {
   btn.addEventListener("click", updateButton);
